@@ -7,4 +7,6 @@ void main(List<String> arguments) async {
   FileOperation.writeToFile();
   FileOperation.readFromFile();
   Compression.compress();
+  Compression.compareAlgorithm();
+  Compression.zipAndUnzip();
 }
